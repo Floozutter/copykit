@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Reactor7";
+    src: url(Reactor7/Reactor7.woff) format('woff');
+}
+
+#container {
+    position: relative;
+    display: inline-block;
+}
+
+#container #caption {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    right: 5%;
+    padding: 0.15em;
+    padding-top: 0.25em;
+    border: 0.1em solid #CCC;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 3vw;
+    color: #FFF;
+    text-shadow: 1px 0 #000;
+    font-family: "Reactor7";
+    background-image: linear-gradient(rgba(160, 30, 120, 0.8), rgba(155, 30, 55, 0.8));
+}
